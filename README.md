@@ -10,15 +10,6 @@ Our project uses "physical blocks" that resemble those in block coding. Each blo
 How we built it
 Each of the mazes were created using HTML, JavaScript, and CSS and we used Flask as our back end framework. There is a form on each page to upload images and we used OpenCV to read the QR codes from the image. The data from OpenCV was passed to our HTML file. It was outputted as a list of steps on a screen and used by our JavaScript code to make the block move through the maze accordingly.
 
-Challenges we ran into
-One of the challenges we ran into was passing data from Flask to our HTML files. We were able to accomplish this by including data in our return statements in Flask. Another challenge we ran into was setting up delays in JavaScript so that we could watch the block move through the maze. We solved this by using TimeOuts.
-
-Accomplishments that we're proud of
-When the block hit a wall on the maze, we wanted to reset the maze and have it stop running. In order to do this, we needed to clear the TimeOuts. We thought of different ideas before settling on our solution and there was a lot of trial and error. However, we're really proud that we were able to come up with a solution for the problem.
-
-What we learned
-A lot of us picked up new skills during this hackathon, such as using JavaScript and Flask. Some of us had prior experience and we were able to learn from one another as we explained the pieces of code we each worked on.
-
 What's next for Blockle
 For this hackathon, we just used QR codes on a piece of paper instead of creating actual 3D blocks. For our next step, we would want to create those blocks and test them. In addition, we would want to add more puzzles and possibly randomly generate puzzles in the future. Lastly, we would want to deploy the app.
 
